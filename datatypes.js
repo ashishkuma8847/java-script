@@ -1,6 +1,6 @@
 // data types 
 // premitive,non premitive,
-// premitive
+// premitive data types single value ko hold karte hai
 // string
 let ashish = "56"
 console.log(typeof ashish);
@@ -26,7 +26,7 @@ let uniqueId = Symbol('id');
 console.log(typeof uniqueId);
 
 
-// non premetive
+// non premetive ek se jyada value ko hold karte hia
 // object
 let ashish6 = {
     username : "ashish"
@@ -45,7 +45,28 @@ console.log(typeof ashish7);
 function sayHello() {
     return 'Hello!';
   }
-  
+  // Date
+let currentDate = new Date();
+console.log(currentDate);
+
+
+// Type Coercion and Conversion se ham kisi bhi value ko apni marji se asign kr sakte hai
+//  Conversion
+let ashish8 = "117861"
+ashish8 = Number("117861")
+console.log(typeof ashish8);
+// Coercion
+let ashish9 = "5"- 4
+console.log(ashish9);
+
+
+let ashish10 = "5"+ 4
+console.log(ashish10);
+// minus karne par ghta diya jayega par plus karne par dono ko sath mai likh diya jayega ye sirf + k sath hi hota hai baki * / - k sath esa kuch nhi hota 
+
+
+
+
 
 
 
