@@ -40,7 +40,7 @@ console.log('c /= 4:', c);   // 6
 c %= 5;   // c = c % 5
 console.log('c %= 5:', c);   // 1
 // Comparison Operators
-//ye do values ko compae karne or vapas boolean mai result lene k liye hota hai
+//ye do values ko compare karne or vapas boolean mai result lene k liye hota hai
 
 // == Equal to
 // === Strictly equal to (type and value)

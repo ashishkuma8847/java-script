@@ -2,11 +2,11 @@
 // premitive,non premitive,
 // premitive data types single value ko hold karte hai
 // string
-let ashish = "56"
-console.log(typeof ashish);
+let ashishtaak = "56"
+console.log(typeof ashishtaak);
 // number
-let ashish1 = 56
-console.log(typeof ashish1);
+let ashish123 = 56
+console.log(typeof ashish123);
 // boolean
 let ashish2 = true
 console.log(typeof ashish2);
