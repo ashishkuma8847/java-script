@@ -53,7 +53,7 @@ console.log('c %= 5:', c);   // 1
 // Example of Comparison Operators
 let x = 5;
 let y = '5';
-console.log('x == y:', x == y);     // true
+console.log('x == y:', x == y);    // true
 console.log('x === y:', x === y);   // false
 console.log('x != y:', x != y);     // false
 console.log('x !== y:', x !== y);   // true
@@ -61,4 +61,33 @@ console.log('x > 3:', x > 3);       // true
 console.log('x < 3:', x < 3);       // false
 console.log('x >= 5:', x >= 5);     // true
 console.log('x <= 5:', x <= 5);     // true
+
+
+// logical oprators
+// eska use boolen ko jodan ya ultaun k liye use hota hai
+// && Logical AND
+// || Logical OR
+// ! Logical NOT
+// &&
+let id = true;
+let password = false;
+console.log(id && password);
+// false
+
+let idone = true;
+let passwordone = true;
+console.log(idone && passwordone);
+// true
+// ||
+let idthree = 1;
+let passwordthree = 5;
+console.log(idthree === 1 || idthree == 1);
+// !
+let idthee = !1;
+let passworthree = 5;
+console.log(idthee);
+
+
              
+
+
