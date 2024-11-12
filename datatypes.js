@@ -45,9 +45,10 @@
 // function sayHello() {
 //   return 'Hello!';
 // }
-// // Date
-// let currentDate = new Date();
-// console.log(currentDate);
+// Date
+let date = new Date(time)
+console.log(date);
+
 
 
 // // Type Coercion and Conversion se ham kisi bhi value ko apni marji se asign kr sakte hai
