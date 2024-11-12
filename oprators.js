@@ -44,13 +44,13 @@
 
 // // == Equal to
 // // === Strictly equal to (type and value)
-// // != Not equal to
+// // != Not equal to(not type)
 // // !== Strictly not equal to
 // // > Greater than
 // // < Less than
 // // >= Greater than or equal to
 // // <= Less than or equal to
-// // Example of Comparison Operators
+// // Example 
 // let x = 5;
 // let y = '5';
 // console.log('x == y:', x == y);    // true
@@ -64,7 +64,9 @@
 
 
 // // logical oprators
-// // eska use boolen ko jodan ya ultaun k liye use hota hai
+// // eska use boolen ko jodan ya ultane k liye use hota hai
+
+
 // // && Logical AND
 // // || Logical OR
 // // ! Logical NOT
@@ -79,15 +81,32 @@
 // console.log(idone && passwordone);
 // // true
 // // ||
-// let idthree = 1;
-// let passwordthree = 5;
-// console.log(idthree === 1 || idthree == 1);
+// let idCode1 = 5
+// let myId = '5'
+// console.log("idcode", idCode1 == 5 || myId == 4); //true
+
+// console.log("ID2", idCode1 == 4 || myId == 5); //true
+
+// console.log("ID3", idCode1 == 4 || myId == 4); //false
+
+// console.log("ID4", idCode1 == 5 || myId == 5); //true
+
+
+
 // // !
-// let idthee = !1;
+// let idthee = 1;
 // let passworthree = 5;
 // console.log(idthee);
 
 
-             
+// let not = false;
+// let yes = true
+// console.log(!not !== yes);
+
+// // &&
+
+// let babbl = 1;
+// let preet = 1;
+
 
 
