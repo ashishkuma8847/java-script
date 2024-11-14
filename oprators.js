@@ -109,4 +109,16 @@
 // let preet = 1;
 
 
+// key value pears access karna first value start to 0 and lenth start 1
+// let game = new String('ashish')
+// console.log(game[5]);
+
+
+
+
+//  string intropolation.....................................
+// let ad = "ashish";
+// let ab = "taak";
+// console.log(`my name id ${ad} my gotra ${ab} `);
+// its work only string
 
