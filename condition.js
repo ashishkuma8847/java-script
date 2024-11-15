@@ -3,7 +3,7 @@
 // conditional statements
 //  condition statement ka use alag alag jagah k adhar par alag alag karwai karne k liye hota hai
 // 1. if ,else if ,else
-// if statement code k ek block ko chlati hai jd tak spesifide condition true ho .agar pehli condition false hai to or statement ko test karne k liye nai condition nishchit karti hai .baki staement code k ek block ko chlati hai agar sari pichli statement galat hia tab
+// if statement code k ek block ko chlati hai tab tak spesifide condition true ho .agar pehli condition false hai to or statement ko test karne k liye nai condition nishchit karti hai .baki staement code k ek block ko chlati hai agar sari pichli statement galat hai tab
 let a = 25;
 let b = 5
 if (a < b){
@@ -32,19 +32,19 @@ while (count <= 5) {
     count++;
 }
 // 3. Do-While Loops
-// dowhile loop k smaan hi hota hai par ye condition ki janch karne se pehle code block ko ek baar chlata hai
+// dowhile ,loop k smaan hi hota hai par ye condition ki janch karne se pehle code block ko ek baar chlata hai
 let number = 1;
 
 do {
-    console.log("Number is:", number);
-    number++;
-} while (number <= 5);
+    console.log("Number is:", numb);
+    numb++;
+} while (numb <= 5);
 
 
 
 
 // 3. Switch Statement
-// switch statement ka estemal alag alag jagah k adhar par alag alag karwai k liye kiya jata hai. ye multiple likhne ka saaf trika hai agar statmenta jo ek smikarn ki alag alag values se compare karti hai
+// switch statement ka estemal alag alag jagah k adhar par alag alag karwai k liye kiya jata hai. ye multiple likhne ka saaf trika hai agar statment jo ek smikarn ki alag alag values se compare karti hai
 let fruit =  prompt('apple');
 
 switch (fruit) {
