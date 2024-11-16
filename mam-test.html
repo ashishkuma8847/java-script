@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-for(b=1;b<=10;b++){
-    if (b%2==0){
-        console.log("odd number:", b);
-    }
-    else if (b%1==0){
-        console.log("even number:", b);
-    }
-}
+        //    let b = prompt("numbers")
+        // if (b%2==0){
+        //     console.log("even number:", b);
+        // }
+        // else if (b%1==0){
+        //     console.log("odd number:", b);
+        // }
+        // else{
+        //     console.log("not a number please check your number");       
+        // }
+        // let a = prompt("day")
+        // switch(a){
+        //     case "1":
+        //         console.log("sunday");
+        //         break;
+        //         case "2":
+        //             console.log("monday");
+        //             break;
+        //             case "3":
+        //                 console.log("tuesday");
+        //                 break;
+        //                 case "4":
+        //                     console.log("wednesday");
+        //                     break;
+        //                     case "5":
+        //                         console.log("thursday");
+        //                         break;
+        //                         case "6":
+        //                             console.log("friday");
+        //                             break;
+        //                             case "7":
+        //                                 console.log("saturday");
+        //                                 break;
+        //                                 default:
+        //                                     console.log( "7 days in the week :"+a );
+        //                                     break;
+        // }
+        // let b = prompt("voting")
+        // if(b >= 18){
+        //     console.log("aligible for vote");
+        // }
+        // else if(b >= 0){
+        //    console.log("not aligible for vote");
+
+        // }
+        // else{
+        //     console.log("it is not a age :"+b); 
+        // }
+
+        // let c =prompt("divistion by 3")
+        // console.log(c / 3);
+        let aFirst = prompt('larger number')
+        let aSecound = prompt('larger number')
+        let aThird = prompt('larger number')
+        if (aFirst > aSecound && aSecound > aThird) {
+            console.log(aFirst, "id1");
+        }
+        else if (aSecound > aFirst && aSecound > aThird )  {
+            console.log(aSecound, "id2");
+        }      
+        else {
+            console.log( aThird ,'1d3');
+        }
     </script>
 </body>
+
 </html>
