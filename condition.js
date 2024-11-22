@@ -9,9 +9,8 @@
 // if (a < b){
 //      console.log("taak");
 // }
-// else if(a <= b){
-    
-//     console.log("ashish",a%b);  
+// else if(a === b){
+//     console.log("ashish");  
 // }
 // else{
 //     console.log("error");
@@ -34,10 +33,10 @@
 // dowhile ,while k smaan hi hota hai par ye condition ki janch karne se pehle code block ko ek baar chlata hai
 // let numb = 1;
 // let demo1 = 1
-// do {
+// do{
 //     console.log(demo1);
 //     demo1++
-// }while(demo <= 5)
+// }while(demo1 <= 10)
 //     // in positive
 // let demo = 1
 // do {
@@ -79,26 +78,26 @@
 
 // Conclusion
 // JavaScript If-Else Statement Example
-let score = prompt("MARKS");
-let grade;
+// let score = prompt("MARKS");
+// let grade;
 
-if (score >= 90) {
-    grade = "A++";
-}
-else if (score >= 80) {
-    grade = "A";
-}
+// if (score >= 90) {
+//     grade = "A++";
+// }
+// else if (score >= 80) {
+//     grade = "A";
+// }
 
-else if (score >= 80) {
-    grade = "B";
-}
-else if (score >= 70) {
-    grade = "C";
-} 
-else if (score >= 60) {
-    grade = "D";
-}
- else {
-    grade = "F";
-}
-console.log("none of them  : " + grade);
+// else if (score >= 80) {
+//     grade = "B";
+// }
+// else if (score >= 70) {
+//     grade = "C";
+// } 
+// else if (score >= 60) {
+//     grade = "D";
+// }
+//  else {
+//     grade = "F";
+// }
+// console.log("none of them  : " + grade);
