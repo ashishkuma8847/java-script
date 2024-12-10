@@ -7,6 +7,8 @@
   </head>
 
   <body>
+    <button onclick="java(1,2,3)">normal function</button>
+    <button id="arrow">arrow function</button>
     <script>
       //    let b = prompt("numbers")
       // if (b%2==0){
@@ -267,17 +269,16 @@
 
       //10. Write a program to find the largest and smallest numbers in an array using a for loop and if-else.
 
-      // let numbers = [20, 10, -12,5,-6, 35,90,-90, 18]
+      // let numbers = [20, 10, -12, 5, -6, 35, 90, -90, 18];
       // let largest1 = numbers[0]; //0 20 1rst 20 2nd 20  3rd 20  4th 20  35  90  90  90
-      // let smallest1 = numbers[0];//0 20 1rst 10 2nd -12 3rd -12 4th -12 -12 -12 -90 -90
+      // let smallest1 = numbers[0]; //0 20 1rst 10 2nd -12 3rd -12 4th -12 -12 -12 -90 -90
 
       // for (let b = 0; b < numbers.length; b++) {
-      //     if ( numbers[b] > largest1) {
-      //         largest1 = numbers[b];
-      //     }
-      //     else if (numbers[b] < smallest1) {
-      //         smallest1 = numbers[b];
-      //     }
+      //   if (numbers[b] > largest1) {
+      //     largest1 = numbers[b];
+      //   } else if (numbers[b] < smallest1) {
+      //     smallest1 = numbers[b];
+      //   }
       // }
       // console.log(largest1, "largest number");
       // console.log(smallest1, "smallest number");
@@ -316,7 +317,7 @@
       // for(let i of id){
       //     let b = Number(i)
       //     main = main +  Math.pow(b,id.length)
-      // }
+      //   }
       // if(id == main){
       //     console.log("true");
 
@@ -340,12 +341,12 @@
 
       // 15. Write a program to reverse an array using a for loop and an if-else statement to skip reversing if the array has less than 2 elements.
 
-      // let id = [10, 20, 30, 40, 50]
-      // let abc = []
-      // for (let i  = 4; i >= 0; i--) {
-      //     abc.push(id[i])
-      // }
-      // console.log(abc);
+      let id = [10, 20, 30, 40, 50];
+      let abc = [];
+      for (let i = 4; i >= 0; i--) {
+        abc.push(id[i]);
+      }
+      console.log(abc);
 
       // 16. Create a program to check whether all elements in an array are unique using nested for loops and if-else.
 
@@ -393,7 +394,7 @@
       //       if (arr[i] + arr[d] === target) {
       //         let rr = "(" + arr[i] + "+" + arr[d] + ")" + "=" + target;
       //         pair.push(rr);
-      //         a += 1;
+      //         a = a + 1;
       //       }
       //     }
       //   }
@@ -424,20 +425,6 @@
       //       console.log(arr.join(' '));
       //     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       //   let id = [10, 20, 30, 40, 50]
       //          let abc = []
       //          for (let i = 4; i >= 0; i--) {
@@ -446,25 +433,6 @@
       //          console.log(abc);
 
       //   console.log(Math.pow(2,6));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       // 0 1 1 2 3 5 8 13 21
 
@@ -508,23 +476,6 @@
       //             }
       //         }
 
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       // let a = prompt("enugyurgt")
       // let sum = 1;
       // for(i = a; i >= 1; i--){
@@ -532,22 +483,39 @@
       // }
       // console.log(sum);
 
+      document.getElementById("arrow").addEventListener("click", () => {
+        returnval(5,2);
+      });
+      function java(a, b, c) {
+        console.log(a + b + c);
+      }
 
+      let java2 = (a, b) => {
+        console.log(a * b);
+      };
 
+      function greet() {
+        console.log("greet")
+        happy()
+      }
 
+      function happy() {
+        console.log("hapy")
+      }
 
+      function returnval(a,b){
+return console.log(a*b)
+      }
 
+      // iife
+      ((a,b)=>{
+        console.log(a+b)
+        happy()
+      })(1,2)
 
+      // let result = returnval(5,2);
 
-
-
-
-
-
-
-
-
-      
+      // console.log(result)
     </script>
   </body>
 </html>
