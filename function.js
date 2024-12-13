@@ -49,7 +49,7 @@
 
 // dom mathods and functions
 
- // Example 1: getElementById
+ // // Example 1: getElementById
 //  function changeTextById() {
 //     // Selecting the element by its ID and changing its text content
 //     document.getElementById('elementByIdExample').textContent = 'The text has been changed!';
@@ -93,3 +93,9 @@
 //     // Changing the HTML content inside the div with id 'htmlContent'
 //     document.getElementById('htmlContent').innerHTML = '<strong>New HTML content!</strong>';
 // }
+
+
+
+
+
+
