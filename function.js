@@ -60,7 +60,7 @@
 //     // Selecting all elements with the class 'colorBox' and changing their background color
 //     const boxes = document.getElementsByClassName('colorBox');
 //     for (let i = 0; i < boxes.length; i++) {
-//         boxes[i].style.backgroundColor = 'yellow';
+//         boxes[i] 
 //         boxes[i].style.color = 'black';
 //     }
 // }
