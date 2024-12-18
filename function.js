@@ -47,9 +47,6 @@
 // console.log("iife");
 // })()
 
-// 6. CUNSTRUCTOR FUNCTION
-// objects ko create karne k liye use hota hai
- 
 
 // greetUser(displayMessage)
 
