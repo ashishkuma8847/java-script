@@ -1,5 +1,5 @@
 // JavaScript Functions
-// JAVASCRIPT MAIN FUNCTION EK BLOCK OF CODE HOTA HAI JO KI EK SPESIFIC TASK PERFOME KARTA HAI  AUR ESSE
+// JavaScript mein function ek block of code hota hai jo ek specific task ko perform karta hai. Aap function ko ek baar define kar sakte ho, aur usse baar-baar call karke use kar sakte ho. Function ka main purpose reusable code banane ka hota hai, taaki aapko bar-bar same code likhne ki zarurat na ho.
 
 // RAGULAR OR NORMAL FUNCTION 
 // YEH SABSE BASIC TARIKA HIA  FUNCTION BANANE KA ISKA NAAM HOTA HAI OR ESE KHI BHI CALL KAR SATHE HAI
@@ -19,7 +19,7 @@
 // }
 
 // 3. Callback Function
-// A callback function is a function passed as an argument to another function.
+// Ek callback function wo function hota hai jo ek dusre function ko argument ke roop mein pass kiya jata hai.
 
 // function greetUser(callback) {
 //     console.log("Greeting user...");
@@ -48,13 +48,17 @@
 // })()
 
 
+
+
+
+
 // greetUser(displayMessage)
 
 
 // Function Parameters and Return Values
 
 // 1. Function with Parameters
-// Parameters are inputs you can pass into a function to change its behavior.
+// Parameters wo inputs hote hain jo aap function mein pass karte ho taaki us function ka behavior change ho sake.
 
 // function addNumbers(a, b) {
 //     console.log(a + b);
@@ -63,7 +67,7 @@
 // addNumbers(1,2)
 
 // 2. Function with Return Value
-// A function can return a value, which can be used later in your code.
+// Ek function koi value return kar sakta hai, jo aap apne code mein baad mein use kar sakte ho.
 
 // function multiplyNumbers(a, b) {
 //     return a * b;
@@ -72,7 +76,21 @@
 //         multiplyNumbers(2,2)
 
 //     );
-    
+    // RETURN
+
+// JavaScript mein return ek statement hai jo function ko exit karne ke liye use hota hai aur optional value ko function call karne wale ko bhejta hai. Jab return execute hota hai, function ka execution wahan hi ruk jata hai, aur jo value return ke baad hoti hai, woh caller ko wapas bheji jaati hai.
+
+// function add(a, b) {
+//   return a + b; // a aur b ka sum return kar raha hai
+// }
+
+// let result = add(3, 5);
+// console.log(result); // 8
+
+// return function ko exit karta hai aur optional value return karta hai.
+// Agar return ke baad koi value nahi di, to undefined return hota hai.
+// return ke baad ka code execute nahi hota.
+
 
 
 
