@@ -2,7 +2,9 @@
 // conditions ko control flow bhi kha ja sakta  hai
 // conditional statements
 //  condition statement ka use alag alag jagah k adhar par alag alag karwai karne k liye hota hai
-// 1. if ,else if ,else
+
+// 1. if ,else if ,else(type opf if else 1. if 2.if else 3. ladder 4. nested )
+
 // if statement code k ek block ko chlati hai tab tak spesifide condition true ho .agar pehli condition false hai to or statement ko test karne k liye nai condition nishchit karti hai .baki staement code k ek block ko chlati hai agar sari pichli statement galat hai tab
 // let a = 5
 // let b = "5"
@@ -15,6 +17,7 @@
 // else{
 //     console.log("error");
 // }
+
 // 2. loops
 // loop hme code k ek block ko baar baar chlane ki ijajat deta hai
 // 1. for loop
