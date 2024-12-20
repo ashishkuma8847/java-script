@@ -12,7 +12,7 @@
 
 // let a= "hello"
 // a=a.charAt(0)
-// console.log(a); output h
+// console.log(a); //output h
 
 //3. charCodeAt()
 //  method ek specified index par string ke character ka code return karta hai.
@@ -22,7 +22,7 @@
 // a=a.charCodeAt(0)
 // console.log(a); output 104
 
-//4. introduced the string method 
+//4.
 // at():
 
 // let a= "hello"
@@ -68,8 +68,8 @@
 // let a= "hello"
 // a=a. toUpperCase()
 // b= a.toLowerCase()
-// console.log(a);// Output: 'HELLO, WORLD!' 
-// console.log(b);// Output: 'hello, world!'
+// console.log(a);// Output: 'HELLO' 
+// console.log(b);// Output: 'hello'
  
 
 //8. "concat() method ko plus operator ke jagah use kiya ja sakta hai. Yeh dono lines ek hi kaam karti hain."

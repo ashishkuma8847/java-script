@@ -1,19 +1,19 @@
 
-// dom mathods and functions
+// // dom mathods and functions
 
- // // Example 1: getElementById
+//  // Example 1: getElementById
 //  function changeTextById() {
 //     // Selecting the element by its ID and changing its text content
 //     document.getElementById('elementByIdExample').textContent = 'The text has been changed!';
 // }
 
-// // Example 2: getElementsByClassName
+// // // Example 2: getElementsByClassName
 // function changeColorByClass() {
 //     // Selecting all elements with the class 'colorBox' and changing their background color
 //     const boxes = document.getElementsByClassName('colorBox');
 //     for (let i = 0; i < boxes.length; i++) {
-//         boxes[i] 
-//         boxes[i].style.color = 'black';
+//         boxes[i].style.backgroundColor="red" 
+//         boxes[i].style.color = 'yellow';
 //     }
 // }
 
@@ -44,4 +44,5 @@
 // function changeHtmlContent() {
 //     // Changing the HTML content inside the div with id 'htmlContent'
 //     document.getElementById('htmlContent').innerHTML = '<strong>New HTML content!</strong>';
+//     // document.getElementById('htmlContent').innerText = '<strong>New HTML content!</strong>';
 // }
