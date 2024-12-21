@@ -142,7 +142,7 @@
 // split() method ek string ko array mein convert karta hai, aur wo array string ke parts ka collection hota hai.
 // Yeh method ek separator ka use karke string ko todta hai.
 
-//  
-let a = new String( "ashish")
-
-                    
+let a = "ashish"
+a= a.split()
+console.log(a);//output ['ashish']
+                   
