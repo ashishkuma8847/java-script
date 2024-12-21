@@ -1,3 +1,4 @@
+// // java script main oprators koi karwai ko perform karne k liye use hota hai ye spetioal symbels hote hain 
 // // opraters 6 types arithmatic ,assignment ,comparison ,logical ,bitwise ,other types: typeof ,instanceof ,in ,delete ,? 
 // // arithmatic operators
 // // es ka use mathmatical opration mai hota hai

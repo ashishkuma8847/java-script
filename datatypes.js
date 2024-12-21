@@ -41,7 +41,7 @@
 // console.log(typeof ashish7);
 // // Function
 // function sayHello() {
-//  return 'Hello!';
+//  return 'Hello!'; 
 // }
 // // Date
 // let date = new Date()

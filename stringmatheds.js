@@ -142,9 +142,7 @@
 // split() method ek string ko array mein convert karta hai, aur wo array string ke parts ka collection hota hai.
 // Yeh method ek separator ka use karke string ko todta hai.
 
-// let str = "apple,banana,cherry";
+//  
+let a = new String( "ashish")
 
-// // Comma ko separator bana ke todte hain
-// let result = str.split(",");
-// console.log(result); // Output: ["apple", "banana", "cherry"]
                     
