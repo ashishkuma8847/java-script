@@ -14,6 +14,21 @@
 // let greeting = `Hello, ${name}!`;
 // console.log(greeting); // Output: Hello, John!
 
+// what is temporal dead zone
+
+// The Temporal Dead Zone (TDZ) is a concept in JavaScript, specifically related to how variables are hoisted and initialized in the code. In Hinglish, it can be explained like this:
+
+// "Temporal Dead Zone ek aisa time period hota hai jab aap koi variable declare karte ho using let ya const, lekin us variable ko uske declaration se pehle use karte ho. Matlab, jab aap code likhte ho, tab variable memory mein hoisting ke through aa jata hai, lekin uska actual value assign hone se pehle usko access karna error dega.
+
+// Agar aap us variable ko uske declaration se pehle access karte ho, toh JavaScript usko undefined nahi samjhega, balki ek error throw karega. Matlab, wo variable us time pe accessible nahi hota, usse pehle wo "dead zone" mein hota hai.
+
+// Example:
+// console.log(a);  // ReferenceError: Cannot access 'a' before initialization
+// let a = 5;
+
+// Yahan pe, a ko declare toh kiya gaya hai let ke saath, lekin uske pehle agar usko access karne ki koshish karoge, toh error milega."
+
+// In short, Temporal Dead Zone ka matlab hai ki jab tak variable ko let ya const se initialize nahi kiya jata, tab tak wo accessible nahi hota, aur agar aap usko pehle access karte ho toh JavaScript error dega.
     </script>
 </body>
 </html>

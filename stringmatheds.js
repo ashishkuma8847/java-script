@@ -4,7 +4,7 @@
 // "Length property string ki length return karti hai."
 // let a= "lenght"
 // a=a.length
-// console.log(a);// output: 6
+// console.log(a);
 
 // 2.CharAt()
 //"charAt() method ek specified index (position) par string ka character return karta hai."
@@ -12,7 +12,7 @@
 
 // let a= "hello"
 // a=a.charAt(0)
-// console.log(a); //output h
+// console.log(a); 
 
 //3. charCodeAt()
 //  method ek specified index par string ke character ka code return karta hai.
@@ -20,25 +20,25 @@
 
 // let a= "hello"
 // a=a.charCodeAt(0)
-// console.log(a); output 104
+// console.log(a); 
 
 //4.
 // at():
 
 // let a= "hello"
 // a=a.at(0)
-// console.log(a);//output h
+// console.log(a);
 
 //5. []
 // let a= "hello"
 // a=a[0]
-// console.log(a);//output h
+// console.log(a);
 
 //6. Extracting String Parts
 // There are 3 methods for extracting a part of a string:
 
 // slice(start, end)
-// substring(start, end)
+// substring(start, end) //ye "-" (nagitive) value ko return nhi karta output complete value hi return aayega
 // substr(start, length)
 
 // "slice() ek string ka hissa extract karta hai aur us extracted hissa ko naye string mein return karta hai. Yeh method 2 parameters leta hai: start position, aur end position (jahan tak, end ko include nahi kiya jata)."
@@ -47,7 +47,7 @@
 
 // let a= "hello"
 // a=a.slice(1,4)
-// console.log(a);//output ell
+// console.log(a);
 
 // substr(start, length)
 // "substr() slice() ke similar hota hai. Par difference yeh hai ki second parameter extracted part ki length specify karta hai, na ki end position."
@@ -56,7 +56,7 @@
 
 // let a= "hello"
 // a=a.substr(2,4)
-// console.log(a);//output ell
+// console.log(a);
 
 //7. toUpperCase():  toLowerCase():
 // "Ek string ko upper case mein convert karne ke liye toUpperCase() use kiya jaata hai."
@@ -68,8 +68,8 @@
 // let a= "hello"
 // a=a. toUpperCase()
 // b= a.toLowerCase()
-// console.log(a);// Output: 'HELLO' 
-// console.log(b);// Output: 'hello'
+// console.log(a); 
+// console.log(b);
  
 
 //8. "concat() method ko plus operator ke jagah use kiya ja sakta hai. Yeh dono lines ek hi kaam karti hain."
@@ -79,11 +79,11 @@
 // let str2 = "World";
 // // Using + operator
 // let result1 = str1 + " " + str2;  
-// console.log(result1);// Output: 'Hello World'
+// console.log(result1);
 
 // // Using concat() method
 // let result2 = str1.concat(" ", str2); 
-// console.log(result2);// Output: 'Hello World'
+// console.log(result2);
 
 //9. 
 // trim()                                                                                                   
@@ -92,13 +92,13 @@
 // "trim() method string ke dono sides se whitespace hata deta hai."
 // Yeh method string ke starting aur ending mein jo extra spaces hote hain, unhe remove kar deta hai.
 
-// let a= "hello"
+// let a= "     hello    "
 // a=a.trim()
-// b= a.trimStart()
+// b= a.trimStart() 
 // c= a.trimEnd()
 // console.log(a); 
 // console.log(b);
-// console.log(c);// output hello
+// console.log(c);
 
 // 10.padStart() method ek string ke starting se characters add karta hai.
 // Yeh ek string ko doosri string (baar-baar repeat karke) ke saath pad karta hai, jab tak string ki length specified length tak na pahuch jaaye.
@@ -146,3 +146,7 @@
 // a= a.split()
 // console.log(a);//output ['ashish']
                    
+// let ashish =new String('ashish')
+// console.log(ashish);
+ 
+

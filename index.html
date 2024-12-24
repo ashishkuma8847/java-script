@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- dom mathods and functions -->
 
-    <!-- getElementById -->
-    <!-- <div class="section">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- dom mathods and functions -->
+
+  <!-- getElementById -->
+  <!-- <div class="section">
  <h2>getElementById</h2>
  <p>This method selects an element by its <code>id</code> attribute.</p>
  <p id="elementByIdExample">This text will change when you click the button.</p>
  <button onclick="changeTextById()">Change Text</button>
 </div> -->
 
-    <!-- getElementsByClassName -->
-    <!-- <div class="section">
+  <!-- getElementsByClassName -->
+  <!-- <div class="section">
  <h2>getElementsByClassName</h2>
  <p>This method selects all elements with a given class name. It returns a collection of elements.</p>
  <div class="colorBox red">Red Box</div>
@@ -26,97 +28,105 @@
  <button onclick="changeColorByClass()">Change Color of All Boxes</button>
 </div> -->
 
-    <!-- querySelector and querySelectorAll -->
-    <!-- <div class="section">
+<!-- get element by tag name -->
+<h1>The Element Object</h1>
+<h2>The getElementsByTagName() Method</h2>
+<ul>
+  <li></li>
+  <li>Tea</li>
+</ul>
+<p>Click "Change" to change the text of the first list item.</p>
+<button onclick="myFunction()">Change</button>
+
+  <!-- querySelector and querySelectorAll -->
+  <!-- <div class="section">
      <h2>querySelector and querySelectorAll</h2>
      <p><code>querySelector</code> selects the first element that matches a CSS selector, while
          <code>querySelectorAll</code> selects all matching elements.
      </p>
      <ul>
-         <li>First item</li>
-         <li>Second item</li>
-         <li>Third item</li>
-     </ul>
-     <button onclick="highlightFirstItem()">Highlight First Item</button>
-     <button onclick="highlightAllItems()">Highlight All Items</button>
- </div> -->
-
+       <li>First item</li>
+       <li>Second item</li>
+       <li>Third item</li>
+      </ul>
+      <button onclick="highlightFirstItem()">Highlight First Item</button>
+      <button onclick="highlightAllItems()">Highlight All Items</button>
+    </div> -->
+    
     <!-- createElement and appendChild -->
     <!-- <div class="section">
-     <h2>createElement and appendChild</h2>
-     <p>You can create new elements and add them to the DOM using these methods.</p>
-     <button onclick="addNewItem()">Add New List Item</button>
-     <ul id="dynamicList">
+      <h2>createElement and appendChild</h2>
+      <p>You can create new elements and add them to the DOM using these methods.</p>
+      <button onclick="addNewItem()">Add New List Item</button>
+      <ul id="dynamicList">
          <li>Existing item 1</li>
          <li>Existing item 2</li>
-     </ul>
+        </ul>
  </div> -->
 
-    <!-- innerHTML -->
-    <!-- <div class="section">
-     <h2>innerHTML</h2>
-     <p>This property sets or returns the HTML content inside an element.</p>
-     <div id="htmlContent">Original content here...</div>
-     <button onclick="changeHtmlContent()">Change HTML Content</button>
- </div>
-</div> -->
-
+  <!-- innerHTML -->
+  <!-- <div class="section">
+    <h2>innerHTML</h2>
+    <p>This property sets or returns the HTML content inside an element.</p>
+    <div id="htmlContent">Original content here...</div>
+    <button onclick="changeHtmlContent()">Change HTML Content</button>
+  </div> -->
+  <!-- 
     <p class="withid">ashish</p>
     <p class="withid">ashish</p>
     <p class="withid">ashish</p>
-    <button onclick="cailid('ashish',20)">hhhh</button>
-    <script>
-     
-      // function cailid(a,b) {
-      //     document.getElementById("withid").textContent="i am a web develoaper"
-      // }
-      // let cailid=(a,b)=>{
-      //       let add = document.getElementsByClassName("withid")
-      //       let avb =  `i am ashish`
-      //          console.log(avb);
+    <button onclick="cailid('ashish',20)">hhhh</button> -->
+  <script>
+    // function cailid(a,b) {
+    //     document.getElementById("withid").textContent="i am a web develoaper"
+    // }
+    // let cailid=(a,b)=>{
+    //       let add = document.getElementsByClassName("withid")
+    //       let avb =  `i am ashish`
+    //          console.log(avb);
 
-      // }
-      // let cailid=(a,b)=>{
-      //    let abc= document.querySelector("p")
+    // }
+    // let cailid=(a,b)=>{
+    //    let abc= document.querySelector("p")
 
-      //     for (let i = 0; i < abc.length; i++) {
-      //         abc[i].style.backgroundColor = 'yellow';
-      //     }
-      // }
-      // let a = [
-      //   {
-      //     name: "ashish",
-      //     age: 20,
-      //   },
-      //   {
-      //     name: "ashish",
-      //     age: 20,
-      //   },
-      //   {
-      //     name: "ashish01",
-      //     age: 20,
-      //   },
+    //     for (let i = 0; i < abc.length; i++) {
+    //         abc[i].style.backgroundColor = 'yellow';
+    //     }
+    // }
+    // let a = [
+    //   {
+    //     name: "ashish",
+    //     age: 20,
+    //   },
+    //   {
+    //     name: "ashish",
+    //     age: 20,
+    //   },
+    //   {
+    //     name: "ashish01",
+    //     age: 20,
+    //   },
 
-      // ];
+    // ];
 
-      // let callid = (b, d) => {
-      //   console.log(
-      //      "i am",b,  "my age",d
-      //     ` i am  ${b} my age ${d}`
-      //   );
-      // };
-      // for (let i of a) {
-      //   callid(i.name, i.age);
-      // }
+    // let callid = (b, d) => {
+    //   console.log(
+    //      "i am",b,  "my age",d
+    //     ` i am  ${b} my age ${d}`
+    //   );
+    // };
+    // for (let i of a) {
+    //   callid(i.name, i.age);
+    // }
+  </script>
+  <!-- <marquee behavior="slide" direction="right">ashishjakljjdasjlkdjklsajlkdkjasjdlkjasjdalsjkdj</marquee> -->
+  <script src="./oprators.js"></script>
+  <script src="./variables.js"></script>
+  <script src="./datatypes.js"></script>
+  <script src="./condition.js"></script>
+  <script src="function.js"></script>
+  <script src="./dom.js"></script>
+  <script src="./stringmatheds.js"></script>
+</body>
 
-    </script>
-    <!-- <marquee behavior="slide" direction="right">ashishjakljjdasjlkdjklsajlkdkjasjdlkjasjdalsjkdj</marquee> -->
-    <script src="./oprators.js"></script>
-    <script src="./variables.js"></script>
-    <script src="./datatypes.js"></script>
-    <script src="./condition.js"></script>
-    <script src="function.js"></script>
-    <script src="./dommatheds.js"></script>
-    <script src="./stringmatheds.js"></script>
-  </body>
 </html>
