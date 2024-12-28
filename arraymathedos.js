@@ -42,7 +42,58 @@
 
 // let a = ["ashish","TAAK"]
 // console.log(a.unshift("i"));
+// console.log(a);
 
+//  delete (Avoid Karna Chahiye)
+// Ye array ko delete nahi karta, sirf variable ko undefined banata hai.
 
+// let fruits = ["apple", "banana", "mango"];
+// delete fruits[1]; 
+// console.log(fruits); 
 
+// splice()
+// Elements ko add, remove, ya replace karne ke liye use hota hai.
  
+// let fruits = ["apple", "banana", "mango"];
+// fruits.splice(1, 1, "orange");
+// console.log(fruits); 
+
+// slice()
+// Array ka ek portion return karta hai (original array modify nahi hota).
+
+// let fruits = ["apple", "banana", "mango", "orange"];
+// let newFruits = fruits.slice(1, 3); 
+// console.log(newFruits); 
+
+// concat()
+// Do arrays ko combine karta hai
+
+// let fruits1 = ["apple", "banana"];
+// let fruits2 = ["mango", "orange"];
+// let combined = fruits1.concat(fruits2);
+// console.log(combined); 
+
+// toSpliced() method JavaScript me nayi cheez hai . Yeh splice() ki tarah kaam karta hai, lekin original array ko modify nahi karta.
+
+// Key Difference:
+// toSpliced(): Naya array banata hai aur original array ko safe rakhta hai.
+// splice(): Directly original array ko modify karta hai.
+
+// let fruits = ["apple", "banana"];
+// let newFruits = fruits.toSpliced(1, 0, "mango", "orange"); 
+// console.log(newFruits); 
+// console.log(fruits);   
+
+// copyWithin() 
+// copyWithin() method ka use ek hi array ke andar elements ko copy karne aur overwrite karne ke liye hota hai. Ye array ki length ko change nahi karta aur original array ko modify karta hai (in-place operation).
+
+// let numbers = [10, 20, 30, 40, 50];
+// numbers.copyWithin(-2, 0, 2); 
+// console.log(numbers);
+
+// flat() 
+// flat() method ka use array ke nested arrays ko flatten (ek level pe le aana) ke liye hota hai. Matlab agar array ke andar sub-arrays hain, toh flat() unko ek array me convert kar deta hai.
+
+// let numbers = [1, [2, [3, 4], 5], 6];
+// let flatNumbers = numbers.flat(2); 
+// console.log(flatNumbers); 
