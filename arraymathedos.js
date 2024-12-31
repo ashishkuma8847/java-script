@@ -15,24 +15,27 @@
 //let a = ["ashish","TAAK"]
 // console.log(a.at(1));
 
-//join()(arrya ko sting mai change kr dega jab ham uske ander value paas karte hai matlab uske ander di gai value ko ye array mai pass kr dega)
+//join()(array ko sting mai change kr dega jab ham uske ander value paas karte hai matlab uske ander di gai value ko ye array mai pass kr dega)
 
 // let a = ["ashish","TAAK"]
-// console.log( a.join());
+// console.log( a.join(" "));
 
 
 //pop()(array mai last value ko remove kr dega)
+
 // let a = ["ashish","TAAK"]
 // console.log(a.pop());
 
 
 //push()(array mai last main di gyi value ko add kr dega)
+
 // let a = ["ashish","TAAK"]
 // console.log(a.push("i"));
 
 
 
 //shift()(array mai first value ko remove kr dega)
+
 // let a = ["ashish","TAAK"]
 // console.log(a.shift());
 
@@ -44,7 +47,7 @@
 // console.log(a.unshift("i"));
 // console.log(a);
 
-//  delete (Avoid Karna Chahiye)
+//  delete (ko Avoid Karna Chahiye)
 // Ye array ko delete nahi karta, sirf variable ko undefined banata hai.
 
 // let fruits = ["apple", "banana", "mango"];
@@ -55,8 +58,10 @@
 // Elements ko add, remove, ya replace karne ke liye use hota hai.
  
 // let fruits = ["apple", "banana", "mango"];
-// fruits.splice(1, 1, "orange");
-// console.log(fruits); 
+// let b=fruits.splice(1, 1, "orange");
+// console.log(b);
+// console.log(fruits);
+ 
 
 // slice()
 // Array ka ek portion return karta hai (original array modify nahi hota).
@@ -64,6 +69,8 @@
 // let fruits = ["apple", "banana", "mango", "orange"];
 // let newFruits = fruits.slice(1, 3); 
 // console.log(newFruits); 
+
+
 
 // concat()
 // Do arrays ko combine karta hai
@@ -81,8 +88,8 @@
 
 // let fruits = ["apple", "banana"];
 // let newFruits = fruits.toSpliced(1, 0, "mango", "orange"); 
-// console.log(newFruits); 
 // console.log(fruits);   
+// console.log(newFruits); 
 
 // copyWithin() 
 // copyWithin() method ka use ek hi array ke andar elements ko copy karne aur overwrite karne ke liye hota hai. Ye array ki length ko change nahi karta aur original array ko modify karta hai (in-place operation).
@@ -97,3 +104,4 @@
 // let numbers = [1, [2, [3, 4], 5], 6];
 // let flatNumbers = numbers.flat(2); 
 // console.log(flatNumbers); 
+
