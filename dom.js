@@ -53,3 +53,8 @@
 
 
 
+
+// add class
+// classlist.add(""),classlist.remove(""),classlist.toggel("")
+
+
