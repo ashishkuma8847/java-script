@@ -105,3 +105,20 @@
 // let flatNumbers = numbers.flat(2); 
 // console.log(flatNumbers); 
 
+// map 
+// kaam: ek nya aaray bnata hai jo har element par ek callback function apply karta hai
+// return: ek nya array deta hai
+// kab use krein: jab array ke elemntes ko transform karke ek naya array chaiye ho
+
+// const n = [1,2,3,4,5]
+// const d = n.map(num => num*2)
+// console.log(d);
+// console.log(n);
+
+// foreach
+// kaam: har element par ek callback function ko execute karta hai useallay side effect (jaise console.log ya external variable modify karna ) ke liye
+// return: kuch mhi return karta undifind aata hai
+// use: jab sirf iterate karna ho aur koi naya array create na jarna ho
+
+// const n= [1,2,3,4,5]
+// n.forEach(num=>console.log(num*2))
