@@ -6,6 +6,8 @@
 //     document.getElementById('elementByIdExample').textContent = 'The text has been changed!';
 // }
 
+// ==============================================================================================================================
+
 // // // Example 2: getElementsByClassName
 // function changeColorByClass() {
 //     // Selecting all elements with the class 'colorBox' and changing their background color
@@ -15,12 +17,17 @@
 //         boxes[i].style.color = 'yellow';
 //     }
 // }
-// // Example 4: tagElementsByTagName
+
+// ==============================================================================================================================
+
+// // Example 3: tagElementsByTagName
 // function myFunction() {
 //     const list = document.getElementsByTagName("UL")[0];
 //     list.getElementsByTagName("li")[0].innerHTML = "Milk"; 
 //   }
  
+// ==============================================================================================================================
+
 // // Example 4: querySelector and querySelectorAll
 // function highlightFirstItem() {
 //     // Selecting the first list item and changing its background color
@@ -36,6 +43,8 @@
 //     });
 // }
 
+// ==============================================================================================================================
+
 //    // Example 5: createElement and appendChild
 //    function addNewItem() {
 //     // Creating a new list item and adding it to the unordered list
@@ -43,6 +52,8 @@
 //     newItem.textContent = 'Newly added item';
 //     document.getElementById('dynamicList').appendChild(newItem);
 // }
+
+// ==============================================================================================================================
 
 // // Example 6: innerHTML , innerText
 // function changeHtmlContent() {
@@ -52,7 +63,7 @@
 // }
 
 
-
+// ==============================================================================================================================
 
 // add class
 // classlist.add(""),classlist.remove(""),classlist.toggel("")

@@ -1,4 +1,7 @@
 //  // data types 
+
+// ==============================================================================================================================
+
 //  // premitive,non premitive,
 //  // premitive data types single value ko hold karte hai
 //  // string
@@ -25,6 +28,8 @@
 //  let uniqueId = Symbol('id');
 //  console.log(typeof uniqueId);
 
+// ==============================================================================================================================
+
 //  // non premetive ek se jyada value ko hold karte hia
 //  // object
 //  let ashish6 = {
@@ -47,7 +52,7 @@
 // let date = new Date()
 // console.log(date);
 
-
+// ==============================================================================================================================
 
 // // Type Coercion and Conversion se ham kisi bhi value ko apni marji se asign kr sakte hai
 // //  Conversion

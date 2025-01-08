@@ -26,6 +26,8 @@
 //     }
 // }
 
+// ==============================================================================================================================
+
 // // const variable ko declare ek baar karne k baad baar baar declare nhi kiya ja sakta hai 
 // // const blockscope keyword hai jiko baar baar declare or value change nhi kiya ja sakta
 // const rahul = 12+12;

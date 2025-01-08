@@ -1,5 +1,8 @@
 // // java script main oprators koi karwai ko perform karne k liye use hota hai ye spetioal symbels hote hain 
 // // opraters 6 types arithmatic ,assignment ,comparison ,logical ,bitwise ,other types: typeof ,instanceof ,in ,delete ,? 
+
+// ==============================================================================================================================
+
 // // arithmatic operators
 // // es ka use mathmatical opration mai hota hai
 // // + Addition
@@ -19,6 +22,9 @@
 // console.log('a % b =', a % b);  // 0
 // console.log('++a =', ++a);      // 11
 // console.log('--b =', --b);      // 4
+
+// ==============================================================================================================================
+
 // // Assignment Operators
 // // ye oprator variable se value ko assign karta hai
 
@@ -40,6 +46,9 @@
 // console.log('c /= 4:', c);   // 6
 // c %= 5;   // c = c % 5
 // console.log('c %= 5:', c);   // 1
+
+// ==============================================================================================================================
+
 // // Comparison Operators
 // //ye do values ko compare karne or vapas boolean mai result lene k liye hota hai
 
@@ -63,6 +72,7 @@
 // console.log('x >= 5:', x >= 5);     // true
 // console.log('x <= 5:', x <= 5);     // true
 
+// ==============================================================================================================================
 
 // // logical oprators
 // // eska use boolen ko jodan ya ultane k liye use hota hai
@@ -109,6 +119,7 @@
 // let babbl = 1;
 // let preet = 1;
 
+// ==============================================================================================================================
 
 // key value pears access karna first value start to 0 and lenth start 1
 // let game = new String('ashish')

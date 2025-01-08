@@ -1,45 +1,53 @@
+// ==============================================================================================================================
+
 //array lenght (ARRAY KI LENGHT DEKHTA HAI)__________________________________________________________________________________
 
 // let a = ["ashish","TAAK"]
 // console.log(a.length);
 
+// ==============================================================================================================================
 
 //array toString()(array ko string mai covert kr deta hai )___________________________________________________________________
 
 //  let a = ["ashish","TAAK"]
 // console.log(a.toString());
 
+// ==============================================================================================================================
 
 //at()(array main index se position pta karta hai)_________________________________________________________________________
 
 //let a = ["ashish","TAAK"]
 // console.log(a.at(1));
 
+// ==============================================================================================================================
+
 //join()(array ko sting mai change kr dega jab ham uske ander value paas karte hai matlab uske ander di gai value ko ye array mai pass kr dega)____________________________________________________________________________________________
 
 // let a = ["ashish","TAAK"]
 // console.log( a.join(" "));
 
+// ==============================================================================================================================
 
 //pop()(array mai last value ko remove kr dega)______________________________________________________________________________
 
 // let a = ["ashish","TAAK"]
 // console.log(a.pop());
 
+// ==============================================================================================================================
 
 //push()(array mai last main di gyi value ko add kr dega)____________________________________________________________________
 
 // let a = ["ashish","TAAK"]
 // console.log(a.push("i"));
 
-
+// ==============================================================================================================================
 
 //shift()(array mai first value ko remove kr dega)_____________________________________________________________________________
 
 // let a = ["ashish","TAAK"]
 // console.log(a.shift());
 
-
+// ==============================================================================================================================
 
 //unshift()(array mai first side di gai value ko add dega)_____________________________________________________________________
 
@@ -47,12 +55,16 @@
 // console.log(a.unshift("i"));
 // console.log(a);
 
+// ==============================================================================================================================
+
 //  delete (ko Avoid Karna Chahiye)____________________________________________________________________________________________
 // Ye array ko delete nahi karta, sirf variable ko undefined banata hai.
 
 // let fruits = ["apple", "banana", "mango"];
 // delete fruits[1]; 
 // console.log(fruits); 
+
+// ==============================================================================================================================
 
 // splice()___________________________________________________________________________________________________________________
 // Elements ko add, remove, ya replace karne ke liye use hota hai.
@@ -62,6 +74,7 @@
 // console.log(b);
 // console.log(fruits);
  
+// ==============================================================================================================================
 
 // slice()____________________________________________________________________________________________________________________
 // Array ka ek portion return karta hai (original array modify nahi hota).
@@ -70,7 +83,7 @@
 // let newFruits = fruits.slice(1, 3); 
 // console.log(newFruits); 
 
-
+// ==============================================================================================================================
 
 // concat()___________________________________________________________________________________________________________________
 // Do arrays ko combine karta hai
@@ -79,6 +92,8 @@
 // let fruits2 = ["mango", "orange"];
 // let combined = fruits1.concat(fruits2);
 // console.log(combined); 
+
+// ==============================================================================================================================
 
 // toSpliced() method JavaScript me nayi cheez hai . Yeh splice() ki tarah kaam karta hai, lekin original array ko modify nahi karta._________________________________________________________________________________________________________________________
 
@@ -91,6 +106,8 @@
 // console.log(fruits);   
 // console.log(newFruits); 
 
+// ==============================================================================================================================
+
 // copyWithin() _______________________________________________________________________________________________________________
 // copyWithin() method ka use ek hi array ke andar elements ko copy karne aur overwrite karne ke liye hota hai. Ye array ki length ko change nahi karta aur original array ko modify karta hai (in-place operation).
 
@@ -98,12 +115,16 @@
 // numbers.copyWithin(-2, 0, 2); 
 // console.log(numbers);
 
+// ==============================================================================================================================
+
 // flat() _______________________________________________________________________________________________________________________
 // flat() method ka use array ke nested arrays ko flatten (ek level pe le aana) ke liye hota hai. Matlab agar array ke andar sub-arrays hain, toh flat() unko ek array me convert kar deta hai.
 
 // let numbers = [1, [2, [3, 4], 5], 6];
 // let flatNumbers = numbers.flat(2); 
 // console.log(flatNumbers); 
+
+// ==============================================================================================================================
 
 // map ()________________________________________________________________________________________________________________________
 // kaam: ek nya aaray bnata hai jo har element par ek callback function apply karta hai
@@ -115,6 +136,8 @@
 // console.log(d);
 // console.log(n);
 
+// ==============================================================================================================================
+
 // foreach()_____________________________________________________________________________________________________________________
 // kaam: har element par ek callback function ko execute karta hai useallay side effect (jaise console.log ya external variable modify karna ) ke liye
 // return: kuch mhi return karta undifind aata hai
@@ -123,6 +146,7 @@
 // const n= [1,2,3,4,5]
 // n.forEach(num=>console.log(num*2))
 
+// ==============================================================================================================================
 
 // JavaScript mein reduce() method ek array method hai jo array ke elements ko ek single value mein reduce karne ke liye use hota hai. Iska syntax kuch is tarah hota hai:____________________________________________________________________________________
 
@@ -146,7 +170,34 @@
 
 // console.log(sum); 
 
+// ==============================================================================================================================
 
+// JavaScript mein Array.from() ek method hai jo ek array-like object ya iterable (jaise string, map, set) ko ek new array mein convert karne ke liye use hota hai.
 
+// Syntax:
 
+// Array.from(arrayLike, mapFunction, thisArg)
+// arrayLike: Yeh wo object hai jo array-like ho (yaani usme length property ho aur elements ho).
+// mapFunction (optional): Ek function jo har element par apply hoga.
+// thisArg (optional): mapFunction ke liye this value.
+
+// Array-like object ko Array mein convert karna:
+// let str = "hello";
+// let arr = Array.from(str);
+// console.log(arr); // ["h", "e", "l", "l", "o"]
+
+// Set ko Array mein convert karna:
+// let set = new Set([1, 2, 3, 4]);
+// let arr = Array.from(set);
+// console.log(arr); // [1, 2, 3, 4]
+
+// Map function ke saath use karna:
+// let arr = Array.from([1, 2, 3, 4], x => x * 2);
+// console.log(arr); // [2, 4, 6, 8]
+
+// ThisArg ka use:
+// let arr = Array.from([1, 2, 3], function(x) {
+//   return x + this.add;
+// }, { add: 5 });
+// console.log(arr); // [6, 7, 8]
 

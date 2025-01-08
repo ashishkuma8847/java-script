@@ -3,6 +3,8 @@
 // conditional statements
 //  condition statement ka use alag alag jagah k adhar par alag alag karwai karne k liye hota hai
 
+// ==============================================================================================================================
+
 // 1. if ,else if ,else(type opf if else 1. if 2.if else 3. ladder 4. nested )
 
 // if statement code k ek block ko chlati hai tab tak spesifide condition true ho .agar pehli condition false hai to or statement ko test karne k liye nai condition nishchit karti hai .baki staement code k ek block ko chlati hai agar sari pichli statement galat hai tab
@@ -17,6 +19,8 @@
 // else{
 //     console.log("error");
 // }
+
+// ==============================================================================================================================
 
 // 2. loops
 // loop hme code k ek block ko baar baar chlane ki ijajat deta hai
@@ -46,6 +50,8 @@
 //     console.log(demo);
 //     demo--
 // }while(demo >= -5)
+
+// ==============================================================================================================================
 
 // 3. Switch Statement
 // switch statement ka estemal alag alag jagah k adhar par alag alag karwai k liye kiya jata hai. ye multiple likhne ka saaf trika hai agar statment jo ek smikarn ki alag alag values se compare karti hai. 
@@ -77,7 +83,7 @@
 //         break;
 // }
 
-
+// ==============================================================================================================================
 
 // Conclusion
 // JavaScript If-Else Statement Example
