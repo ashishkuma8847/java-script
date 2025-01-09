@@ -128,10 +128,10 @@
 // let str = "75";
 // // Starting se pad karna (padStart)
 // let paddedStart = str.padStart(5, "0");
-// console.log(paddedStart); // Output: "00075"
+// console.log(paddedStart); 
 // // End se pad karna (padEnd)
 // let paddedEnd = str.padEnd(5, "0");
-// console.log(paddedEnd); // Output: "75000"
+// console.log(paddedEnd);
 
 // ==============================================================================================================================
 

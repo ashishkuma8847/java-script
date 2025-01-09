@@ -16,7 +16,7 @@
 
 //at()(array main index se position pta karta hai)_________________________________________________________________________
 
-//let a = ["ashish","TAAK"]
+// let a = ["ashish","TAAK"]
 // console.log(a.at(1));
 
 // ==============================================================================================================================
@@ -67,7 +67,7 @@
 // ==============================================================================================================================
 
 // splice()___________________________________________________________________________________________________________________
-// Elements ko add, remove, ya replace karne ke liye use hota hai.
+// Elements ko add, remove, ya replace karne ke liye use hota hai.ye orignal array ko change karta hai
  
 // let fruits = ["apple", "banana", "mango"];
 // let b=fruits.splice(1, 1, "orange");
@@ -111,9 +111,13 @@
 // copyWithin() _______________________________________________________________________________________________________________
 // copyWithin() method ka use ek hi array ke andar elements ko copy karne aur overwrite karne ke liye hota hai. Ye array ki length ko change nahi karta aur original array ko modify karta hai (in-place operation).
 
+// copyWithin(1rst kha par copy kr k rakhna hai hai , 2nd kha se copy karna shuru karna hai ,3rd kha tak copy karna hai ) baki baki jo khali values bachegi wo orignal values aa jayegi
+// ye origional array ko change karta hai
+
 // let numbers = [10, 20, 30, 40, 50];
-// numbers.copyWithin(-2, 0, 2); 
+// let res = numbers.copyWithin(1, 2,4); 
 // console.log(numbers);
+// console.log(res);
 
 // ==============================================================================================================================
 
@@ -140,7 +144,7 @@
 
 // foreach()_____________________________________________________________________________________________________________________
 // kaam: har element par ek callback function ko execute karta hai useallay side effect (jaise console.log ya external variable modify karna ) ke liye
-// return: kuch mhi return karta undifind aata hai
+// return: kuch nhi return karta undifind aata hai
 // use: jab sirf iterate karna ho aur koi naya array create na jarna ho
 
 // const n= [1,2,3,4,5]
